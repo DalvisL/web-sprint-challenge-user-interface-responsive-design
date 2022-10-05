@@ -61,6 +61,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    color:rgb(225, 239, 230);
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
@@ -69,6 +70,7 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    text-align: center;
 }
 
 h2 {
@@ -81,6 +83,10 @@ h3 {
 
 p, a {
     font-size: 3rem;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
 }
 
 /* header section */
@@ -91,8 +97,33 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230);
 }
-
+header div {
+    height: 30%;
+    text-align: center;
+    background:rgba(0, 4, 17, 0.8);
+}
+header nav {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.links{
+    background: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials {
+    background: none;
+    width: 25%;
+    display: flex;
+    font-size: 4rem;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /* spacers */
 .spacer {
     width: 100%;
@@ -111,6 +142,18 @@ header {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    /* flex: 1 0 35%; */
 }
 
 /* about us section */
