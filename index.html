@@ -4,9 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta content="width=device-width, initial-scale=1.0" />
 	<title>Sprint Challenge - Home</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -16,13 +16,20 @@
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
+				
+				<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav>
+					<div class="links">
+						<a	href="menu.html" >Menu</a>
+						<a href="">Reservations</a>
+						<a href="">Special Offers</a>
+						<a href="">Contact</a>
+					</div>
+					<i class="fas fa-facebook"></i>
+					<i class="fas fa-twitter"></i>
+					<i class="fas fa-instagram"></i>
+				</nav>
 			</div>
 		</header>
 
@@ -31,23 +38,23 @@
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg" alt="photograph of avocado toast on a plate">
 
-				img/food-burger.jpg
+				<img src="img/food-burger.jpg" alt="photograph of a table containing a burger, some food, and a drink">
 
-				img/food-poutine.jpg
+				<img src="img/food-poutine.jpg" alt="photograph of poutine on a square skillet">
 
-				img/food-ribs.jpg
+				<img src="img/food-ribs.jpg" alt="photograph of garnished ribs in a wooden bowl">
 
-				img/food-sandwich.jpg
+				<img src="img/food-sandwich.jpg" alt="photograph of a sandwich on a plaid tablecloth">
 
-				img/food-sausage.jpg
+				<img src="img/food-sausage.jpg" alt="photograph of sausage on a bun garnished with onion rings, on a plate">
 
-				img/food-steak.jpg
+				<img src="img/food-steak.jpg" alt="photograph of steak and veggies on a square white plate">
 
-				img/food-tacos.jpg
+				<img src="img/food-tacos.jpg" alt="photograph of three tacos on a tray, on a bar table">
 
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg" alt="photograph of wings and cucumber on a plate and soda to the side">
 			</div>
 		</section>
 
@@ -125,15 +132,19 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<p>Join our mailing list!</p>
+			<label for="email-cta">Email Address</label>
+			<input type="email" id="email-cta" name="email-cta" placeholder="Email Address">
+			<button type="submit">Sign Up</button>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+				<a href="menu.html">Menu</a>
+				<a href="">Reservations</a>
+				<a href="">Special Offers</a>
+				<a href="">Contact</a>
+			</nav>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 		</footer>
 	</div>
 </body>
