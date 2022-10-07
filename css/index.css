@@ -328,12 +328,20 @@ footer {
         flex-direction: column;
     }
     header div a {
+        display: flex;
+        justify-content: center;
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
+    header div a h1 {
+        width: 80%;
+        text-align: center;
+    }
+    header div 
     .links {
         flex-direction: column;
         height: fit-content;
+        align-items: center;
     }
     .socials {
         width: 25%;
